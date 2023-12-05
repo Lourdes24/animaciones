@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animación 4</title>
+    <style>
+                @keyframes colorYPosicion {
+        0% {
+            background-color: rgb(142, 142, 202);
+            transform: translateX(0);
+        }
+        50% {
+            background-color: rgb(206, 105, 105);
+            transform: translateX(200px);
+        }
+        100% {
+            background-color: blue;
+            transform: translateX(0);
+        }
+        }
+
+        .animated-box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        animation: colorYPosicion 8s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <p class="animated-box"><strong>prueba n4</strong></p>
+    
+</body>
+</html>
